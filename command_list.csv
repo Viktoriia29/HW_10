@@ -1,0 +1,23 @@
+    1  git config --global user.name "viktoriia"
+    2  git config --global user.email "viktorij6954@gmail.com"
+    3  git clone https://github.com/Viktoriia29/HW_10.git .
+    4  touch text_ignore.txt
+    5  git status
+    6  git add .
+    7  git commit -m "modified gitignor"
+    8  touch main_test.txt
+    9  gid add .
+   10  git add .
+   11  git commit -m "add main test"
+   12  git branch develop
+   13  git checkout develop
+   14  touch develop_test.txt
+   15  git add .
+   16  git commit -m "add develop test"
+   17  git status
+   18  git add .
+   19  git commit -m "modified develop test"
+   20  git checkout main
+   21  git merge develop
+   22  git log
+   23  history > command_list.csv
